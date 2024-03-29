@@ -2,7 +2,7 @@
 
 :root{
     --main-color: #3B1C0A;
-    --black:#13131a;
+    --black:#2d140a;
     --bg:#c9af9e;
     --border:.1rem solid rgba(0,0,0,.3);
 }
@@ -209,9 +209,11 @@ section{
 .home{
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+    align-items: start;
     /* background-image: linear-gradient(rgba(45, 46, 50, 0.5), rgba(45, 46, 50, 0.7)), url(../images/home-img.jpeg); */
-    background-image:  url(../images/home-img.jpeg);
+    background-image:  url(../images/hero.jpg);
     background-repeat: no-repeat;
     
     /* background:url() no-repeat; */
@@ -220,13 +222,16 @@ section{
 }
 
 .home .content{
-    max-width: 60rem;
+    max-width: 70rem;
+    /* border: 1px solid black; */
+    text-align: center;
 }
 
 .home .content h3{
     font-size: 4.5rem;
     text-transform: uppercase;
     color:#fff;
+    margin-bottom: 30vh;
 }
 
 .home .content p{
