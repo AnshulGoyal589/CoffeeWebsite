@@ -74,7 +74,7 @@ section{
 
 .header{
     background: var(--bg);
-    background-color: #2d2e32 !important;
+    background-color: #c9af9e !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
