@@ -245,20 +245,20 @@ section{
 .about .row{
     display: flex;
     align-items: center;
+    justify-content: center;
     background:var(--black);
     flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
 }
 
-.about .row .image{
-    flex:1 1 45rem;
-}
 
 .about .row .image img{
-    width: 100%;
+    width: 60%;
 }
 .about .row .content{
     flex:1 1 45rem;
-    padding:2rem;
+    padding:6rem;
 }
 
 .about .row .content h3{
