@@ -3,7 +3,7 @@
 :root{
     --main-color:#d3ad7f;
     --black:#13131a;
-    --bg:#010103;
+    --bg:rgba(45,46,50,1);
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -74,6 +74,7 @@ section{
 
 .header{
     background: var(--bg);
+    background-color: #2d2e32 !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -209,7 +210,11 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img.jpeg) no-repeat;
+    /* background-image: linear-gradient(rgba(45, 46, 50, 0.5), rgba(45, 46, 50, 0.7)), url(../images/home-img.jpeg); */
+    background-image:  url(../images/home-img.jpeg);
+    background-repeat: no-repeat;
+    
+    /* background:url() no-repeat; */
     background-size: cover;
     background-position: center;
 }
