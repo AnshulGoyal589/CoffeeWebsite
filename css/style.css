@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#d3ad7f;
+    --main-color: #3B1C0A;
     --black:#13131a;
-    --bg:rgba(45,46,50,1);
+    --bg:#c9af9e;
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -328,7 +328,7 @@ section{
     line-height: 5rem;
     font-size: 2rem;
     border:var(--border);
-    color:#fff;
+    color:#000;
     margin:.3rem;
 }
 
@@ -345,7 +345,7 @@ section{
 }
 
 .products .box-container .box h1{
-    color:#fff;
+    color:#000;
     font-size: 4rem;
 }
 
@@ -360,10 +360,12 @@ section{
 }
 .products .box-container .box p{
     /* border: 1px solid white; */
+    color: black;
     width: 45%;
     text-align: start;
 }
 .products .box-container .box span{
+    color: black;
     /* border: 1px solid white; */
     text-align: end;
     width: 20%;
@@ -375,7 +377,7 @@ section{
 }
 
 .products .box-container .box .content .price{
-    color:#fff;
+    color:#000;
     font-size: 2.5rem;
 }
 
@@ -400,7 +402,7 @@ section{
 .review .box-container .box p{
     font-size: 1.5rem;
     line-height: 1.8;
-    color:#ccc;
+    color:#000;
     padding:2rem 0;
 }
 
@@ -414,7 +416,7 @@ section{
 .review .box-container .box h3{
     padding:1rem 0;
     font-size: 2rem;
-    color:#fff;
+    color:#000;
 }
 
 .review .box-container .box .stars i{
@@ -444,7 +446,7 @@ section{
 .contact .row form h3{
     text-transform: uppercase;
     font-size: 3.5rem;
-    color:#fff;
+    color:#000;
 }
 
 .contact .row form .inputBox{
@@ -457,7 +459,7 @@ section{
 }
 
 .contact .row form .inputBox span{
-    color:#fff;
+    color:#000;
     font-size: 2rem;
     padding-left: 2rem;
 }
@@ -466,7 +468,7 @@ section{
     width: 100%;
     padding:2rem;
     font-size: 1.7rem;
-    color:#fff;
+    color:#000;
     text-transform: none;
     background:none;
 }
@@ -504,7 +506,7 @@ section{
 .blogs .box-container .box .content .title{
     font-size: 2.5rem;
     line-height: 1.5;
-    color:#fff;
+    color:#000;
 }
 
 .blogs .box-container .box .content .title:hover{
@@ -521,7 +523,7 @@ section{
 .blogs .box-container .box .content p{
     font-size: 1.6rem;
     line-height: 1.8;
-    color:#ccc;
+    color:#000;
     padding:1rem 0;
 }
 
