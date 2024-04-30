@@ -45,6 +45,82 @@ section{
     padding:2rem 7%;
 }
 
+/* #call-button{
+
+    position: fixed;
+    bottom: 7%;
+    left: 2%;
+    height: 15%;
+} */
+
+.container-call {
+    position: fixed;
+    bottom: 3.1vh;
+    left: 5vw;
+    height: 15%;
+  }
+  
+  .badge {
+    position: absolute;
+    height: 70%;
+    animation: scaleBadge 5s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes scaleBadge {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Adjust the scale factor as needed */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Media query for smaller viewports */
+  @media screen and (max-width: 600px) {
+    .container-call {
+      bottom: 2vh;
+      left: 10vw;
+    }
+  }
+  
+
+  
+  .container-whatsapp {
+    position: fixed;
+    bottom: 0.1vh;
+    left: 90vw;
+    height: 18%;
+  }
+  
+  .badge-whatsapp {
+    position: absolute;
+    height: 70%;
+    animation: scaleBadge 5s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes scaleBadge {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Adjust the scale factor as needed */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Media query for smaller viewports */
+  @media screen and (max-width: 600px) {
+    .container-whatsapp {
+      bottom: 0.1vh;
+      left: 70vw;
+    }
+  }
+  
 .heading{
     text-align: center;
     color:#fff;
